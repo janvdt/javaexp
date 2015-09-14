@@ -17,4 +17,9 @@ public class MainServer extends UnicastRemoteObject implements mainServerInterfa
 		System.out.println("Succes");
 	}
 	
+	public void connectionSuccess()
+	{
+		System.out.println("connectie succesvol");
+	}
+	
 }
