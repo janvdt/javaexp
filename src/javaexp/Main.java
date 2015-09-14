@@ -19,7 +19,7 @@ public class Main {
 		// start nameserver
 		try 
 		{
-			LocateRegistry.createRegistry(23);
+			LocateRegistry.createRegistry(1099);
 			Naming.bind(bindLocation, mainserver);
 			System.out.println("Main Server is ready at:" + bindLocation);
 			System.out.println("java RMI registry created.");
